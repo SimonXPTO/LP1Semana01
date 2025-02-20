@@ -11,7 +11,7 @@ namespace ManyStrings
         private static void Main(string[] args)
         {
             string Ola = "Ola pessoal!";
-            string nomeIdade = "Eu sou o Simão \nTenho 19 anos!";
+            string nomeIdade = "Eu sou o Simão \nTenho 19 anos\u0021";
             Console.WriteLine(Ola);
             Console.WriteLine(nomeIdade);
         }
