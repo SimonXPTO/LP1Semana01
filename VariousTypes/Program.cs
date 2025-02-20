@@ -14,6 +14,8 @@ namespace VariousTypes
             float firstfloat = 1.1234f;
             double firstdouble = 5.99;
             long firstlong=8354610239563L;
+            bool condition= 5<3;
+            bool Tcond=14.33<15.33;
 
             Console.WriteLine(firstNumber);
             Console.WriteLine(secondNumber);
@@ -22,6 +24,8 @@ namespace VariousTypes
             Console.WriteLine(firstdouble);
             Console.WriteLine(firstfloat);
             Console.WriteLine(firstlong);
+            Console.WriteLine(condition);
+            Console.WriteLine(Tcond);
         }
     }
 }
