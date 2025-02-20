@@ -4,7 +4,12 @@ namespace VariousTypes
 {
     public class Program
     {
-
+        
+        /// <summary>
+        /// Program starts here.
+        /// Multiple literais variables
+        /// </summary>
+        /// <param name="args"></param>
         private static void Main(string[] args)
         {
             int firstNumber = 4;
@@ -15,7 +20,7 @@ namespace VariousTypes
             double firstdouble = 5.99;
             long firstlong=8354610239563L;
             bool condition= 5<3;
-            bool Tcond=14.33<15.33;
+            bool tCond=14.33<15.33;
 
             Console.WriteLine(firstNumber);
             Console.WriteLine(secondNumber);
@@ -25,7 +30,7 @@ namespace VariousTypes
             Console.WriteLine(firstfloat);
             Console.WriteLine(firstlong);
             Console.WriteLine(condition);
-            Console.WriteLine(Tcond);
+            Console.WriteLine(tCond);
         }
     }
 }
