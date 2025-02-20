@@ -16,7 +16,7 @@ namespace AskForInput
             string str1 = Console.ReadLine();
             float y = float.Parse(str1);
 
-
+            Console.WriteLine($"A soma dos dois numeros é {x+y}");
         }
     }
 }
