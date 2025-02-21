@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ManyStrings
 {
@@ -10,6 +11,7 @@ namespace ManyStrings
         /// <param name="args"></param>
         private static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             double xx = 1.23456;
             int ii = 19;
 
