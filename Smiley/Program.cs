@@ -6,7 +6,11 @@ namespace Smiley
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+
+            Console.WriteLine("Insera um codigo Hexadecimal");
+            string x = Console.ReadLine();
+
+
         }
     }
 }
